@@ -1,7 +1,6 @@
 {
     "version": 2,
     "routes": [
-          {"src": "/proxy/(.*)","dest": "https://$1"},
         { "src": "/api/.*", "dest": "/api/now.js" },
         { "src": "/.*", "dest": "/api/now.js" }
     ]
